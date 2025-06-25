@@ -110,6 +110,10 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(height: 20), // Add spacing
+            const Text(
+              'This is the new text you asked for!',
+              style: TextStyle(fontSize: 16, color: Colors.blue),
+            ),
             ElevatedButton(
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
